@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Heavy
+comment1.params=limites\ salon\ a
+comment1.target=Heavy(int[][],\ java.awt.Polygon,\ Shapes.Circle)
+numComments=2

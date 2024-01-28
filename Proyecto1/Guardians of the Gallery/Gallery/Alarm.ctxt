@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Alarm
+comment1.params=xPoint\ yPoint\ ancho
+comment1.target=Alarm(int,\ int,\ int)
+comment1.text=\r\n\ construye\ una\ alarma\ en\ el\ salon\r\n\ @param\ xPoint\ coordenada\ en\ el\ eje\ x\ del\ punto\ donde\ se\ ubicar\u00E1\r\n\ @param\ yPoint\ coordenada\ en\ el\ eje\ x\ del\ punto\ donde\ se\ ubicar\u00E1\r\n\ @param\ ancho\ longitud\ de\ la\ galeria\r\n
+comment2.params=on
+comment2.target=void\ alarm(boolean)
+comment2.text=\r\n\ este\ metodo\ activa\ o\ desactiva\ la\ alarma\r\n\ @param\ on\ boolean\ de\ activado\ o\ desactivado\r\n
+comment3.params=
+comment3.target=boolean\ getState()
+comment3.text=\r\n\ metodo\ que\ retorna\ el\ estado\ de\ la\ alarma,\ si\ esta\ activada\ o\ desactivada\r\n\ @return\ estado\ de\ la\ alarma\r\n
+comment4.params=
+comment4.target=void\ makeInvisible()
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Shy
+comment1.params=limites\ salon\ a\ visible\ attend
+comment1.target=Shy(int[][],\ java.awt.Polygon,\ Shapes.Circle,\ java.lang.Boolean,\ int[])
+comment2.params=
+comment2.target=int[]\ getAttent()
+comment3.params=attent
+comment3.target=void\ setAttent(int[])
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Line
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Line\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=X1\ Y1\ X2\ Y2\ color
+comment1.target=Line(double,\ double,\ double,\ double,\ java.lang.String)
+comment1.text=\r\n\ construye\ una\ linea\r\n\ @param\ X1\ coordenada\ en\ x\ del\ punto\ incial\r\n\ @param\ Y1\ coordenada\ en\ y\ del\ punto\ incial\r\n\ @param\ X2\ coordenada\ en\ x\ del\ punto\ final\r\n\ @param\ Y2\ coordenada\ en\ y\ del\ punto\ final\r\n\ @param\ color\ el\ color\ que\ van\ a\ tener\ las\ lineas\r\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment2.text=\r\n\ hace\ todos\ las\ lineas\ visibles\r\n
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment3.text=\r\n\ hace\ todos\ las\ lineas\ visibles\r\n
+comment4.params=
+comment4.target=void\ draw()
+comment4.text=\r\n\ dibuja\ las\ lineas\ en\ la\ galeria\r\n
+comment5.params=
+comment5.target=void\ erase()
+comment5.text=\r\n\ borra\ las\ lineas\ en\ la\ galeria\r\n
+numComments=6

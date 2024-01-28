@@ -1,0 +1,43 @@
+#BlueJ class context
+comment0.target=GalleryContest
+comment0.text=\r\n\ @author\ Amaya\ Paez\r\n\r\n
+comment1.params=polygon\ guard\ sculpture
+comment1.target=float\ solve(int[][],\ int[],\ int[])
+comment1.text=\r\n\ Devolver\u00EDa\ la\ soluci\u00F3n\ n\u00FAmerica\ del\ problema\ (si\ se\ hubiera\ hecho.\ \:3)\r\n
+comment10.params=a\ b
+comment10.target=int[]\ deltas(int[],\ int[])
+comment10.text=\r\n\ metodo\ que\ devuelve\ los\ delta\ de\ un\ par\ puntos\r\n\ @param\ a\ punto\ inicial\r\n\ @param\ b\ punto\ final\ \r\n\ @return\ pendiente\ ->\ [deltaX,deltaY]\r\n
+comment11.params=point\ deltas
+comment11.target=int\ b(int[],\ int[])
+comment11.text=\r\n\ calcula\ el\ parametro\ b\ de\ la\ ecuacion\ de\ la\ recta\r\n\ @param\ point\ punto\ inical\ \r\n\ @param\ deltas\ ->[deltaX,deltaY]\ pendiente\ \=\ deltaY/deltaX\r\n\ @return\ parametro\ b\ de\ la\ ecuacion\ de\ la\ recta\r\n
+comment12.params=x\ b\ deltas
+comment12.target=int\ calculateY(int,\ int,\ int[])
+comment12.text=\r\n\ metodo\ que\ calcula\ el\ valor\ de\ y\ de\ una\ ecuacion\r\n\ @param\ x\ valor\ de\ x\ a\ remplazar\ en\ la\ formula\r\n\ @param\ b\ valor\ del\ atributo\ b\ de\ la\ ecuacin\ de\ la\ recta\r\n\ @param\ deltas\ ->[deltaX,deltaY]\ pendiente\ \=\ deltaY/deltaX\r\n\ @return\r\n
+comment13.params=past\ now
+comment13.target=double\ distance(int[],\ int[])
+comment13.text=\r\n\ calcula\ la\ distancia\ entre\ dos\ puntos\r\n\ @param\ past\ punto\ inicial\r\n\ @param\ now\ punto\ final\r\n\ @return\ distancia\ de\ tipo\ float\r\n
+comment2.params=polygon\ guard\ sculpture
+comment2.target=void\ simulate(int[][],\ int[],\ int[])
+comment2.text=\r\n\ este\ metodo\ grafica\ la\ solucion\ del\ ejercicio\ de\ la\ arena\r\n\ @param\ polygon\ conjunto\ de\ vertices\r\n\ @param\ guard\ ubicacion\ del\ guardia\r\n\ @param\ sculpture\ ubicacion\ de\ la\ escultura\r\n
+comment3.params=
+comment3.target=void\ moveVision()
+comment3.text=\r\n\ este\ metodo\ se\ usa\ para\ encontrar\ la\ linea\ de\ vision\ de\ la\ escultura\ fuera\ de\ los\ vertices,\ calculando\ el\ punto\ por\ el\ que\ pasa,\r\n\ el\ punto\ al\ que\ llega\ y\ la\ pendiente\ de\ la\ recta\ que\ une\ esos\ dos\ puntos\r\n
+comment4.params=puntoVision\ puntoExpand\ m1
+comment4.target=void\ solucionar(int[],\ int[],\ int[])
+comment4.text=\r\n\ este\ metodo\ encuentra\ el\ camino\ mas\ corto\ desde\ donde\ esta\ el\ guardia,\ hasta\ un\ punto\ donde\ pueda\ ver\ la\ escultura\r\n\ @param\ puntoVision\ es\ el\ punto\ final\ de\ la\ linea\ de\ vision\ de\ la\ escultura\ \r\n\ \ \ \ \ \ \ \ \ \ \ concatenado\ con\ el\ parametro\ b\ de\ la\ ecuiacion\ de\ la\ recta\ correspondiente\ a\ la\ linea\ de\ vision\r\n\ @param\ puntoExpand\ es\ el\ punto\ inicial\ de\ la\ linea\ de\ la\ escultura\r\n\ @param\ m1\ pendiente\ de\ la\ linea\ de\ vision\r\n
+comment5.params=m2\ point\ b1\ m1
+comment5.target=int[]\ calculatePoint(int[],\ int[],\ int,\ int[])
+comment5.text=\r\n\ calcula\ el\ punto\ al\ que\ el\ guardia\ debe\ llegar\ para\ que\ su\ rrecorrido\ sea\ minimo\ \r\n\ @param\ m2\ pendiente\ de\ la\ recta\ tangente\ desde\ el\ guardia\ hasta\ la\ linea\ de\ visoin\r\n\ @param\ point\ posicion\ del\ guardia\r\n\ @param\ b1\ parametro\ b\ de\ la\ ecuiacion\ de\ la\ recta\ correspondiente\ a\ la\ linea\ de\ vision\r\n\ @param\ m1\ pendiente\ de\ la\ recta\ de\ la\ linea\ de\ vision\ de\ la\ escultura\r\n\ @return\ coordenada\ perpendicular\ desde\ la\ ubicacion\ del\ guardia\ a\ la\ linea\ de\ vision,\ es\ decir,\r\n\ \ \ \ \ \ \ \ \ el\ punto\ de\ llegada\ del\ guardia\r\n
+comment6.params=m1\ m2\ b1\ b2
+comment6.target=int\ puntoX(int[],\ int[],\ int,\ int)
+comment6.text=\r\n\ metodo\ que\ calcula\ el\ punto\ x\ de\ la\ interseccion\ de\ dos\ rectas\ \r\n\ @param\ m1\ pendiente\ de\ la\ recta\ 1\r\n\ @param\ m2\ pendiente\ de\ la\ recta\ 2\r\n\ @param\ b1\ componente\ b\ de\ la\ ecuacion\ de\ la\ primera\ recta\r\n\ @param\ b2\ componente\ b\ de\ la\ ecuacion\ de\ la\ segunda\ recta\r\n\ @return\ punto\ en\ x\ de\ la\ interseccion\ de\ las\ dos\ rectas\r\n
+comment7.params=m
+comment7.target=int[]\ lineaVision(int[])
+comment7.text=\r\n\ el\ metodo\ calcula\ la\ pendiente\ de\ la\ recta\ tangente\ a\ una\ recta\ A\r\n\ @param\ m\ pendiente\ de\ la\ recta\ A\r\n\ @return\ pendiente\ de\ la\ recta\ B,\ perpendicular\ a\ la\ recta\ A\r\n
+comment8.params=puntoExpand\ delta
+comment8.target=int[]\ expand(int[],\ int[])
+comment8.text=\r\n\ el\ metodo\ calcula\ el\ el\ punto\ final\ de\ la\ linea\ de\ vision\ de\ la\ escultura\r\n\ @param\ puntoExpand\ punto\ inicial\ de\ la\ escultura\r\n\ @param\ delta\ pendiente\ de\ la\ recta\ de\ la\ linea\ de\ vision\r\n\ @return\ el\ punto\ final\ de\ la\ linea\ de\ vision\r\n
+comment9.params=a
+comment9.target=int[]\ rango(int[])
+comment9.text=\r\n\ calcula\ el\ minimo\ y\ el\ maximo\ de\ los\ vertices\ del\ eje\ x\ de\ la\ figura\r\n\ @param\ a\ conjunto\ de\ coordenadas\ en\ el\ eje\ x\ del\ poligono\r\n\ @return\ maximo\ y\ minimo\ ->\ [min,max]\r\n
+numComments=14
